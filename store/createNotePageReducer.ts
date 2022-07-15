@@ -1,11 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-
-interface Note {
-  text: string;
-  sign: string;
-  date: string | undefined;
-  tz: string;
-}
+import { Note } from "../pages";
 
 const initialState: Note = {
   text: "",

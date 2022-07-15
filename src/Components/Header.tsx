@@ -11,7 +11,7 @@ const Header = ({ page }: HeaderProps) => (
     <Link href="/">
       <HeaderButton activited={page === 1}>Создать запись</HeaderButton>
     </Link>
-    <Link href="contacts">
+    <Link href="notes">
       <HeaderButton activited={page === 2}>Записи</HeaderButton>
     </Link>
   </HeaderBlock>

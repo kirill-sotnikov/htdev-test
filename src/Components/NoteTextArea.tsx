@@ -23,6 +23,7 @@ const NoteTextArea = memo(
 export default NoteTextArea;
 
 const TextArea = styled.textarea`
+  font-family: sans-serif;
   width: 100%;
   min-width: 230px;
   resize: none;
